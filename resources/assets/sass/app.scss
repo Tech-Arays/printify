@@ -1,0 +1,222 @@
+// @import "./spark/spark";
+@import "./../../../vendor/laravel/spark-aurelius/resources/assets/sass/spark";
+#app-layout {
+    .btn-white {
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+    .btn-white:hover {
+      background-color: #e6e6e6;
+    }
+    background-color: #FFF;
+    .container {
+    max-width: 1060px;
+    }
+    .navbar-spark{
+      height:50px;
+      .navbar-brand {
+        display: block;
+        min-width: 200px;
+        height: 50px;
+        margin: 0;
+        font-weight:400;
+        font-size: 18px;
+        color:#777;
+        padding-top:12px;
+        img {
+          max-width: 165px;
+        }
+      }
+      .navbar-nav{
+        a{
+          color: #777;
+          font-weight: 400;
+        }
+      }
+    }
+    .navbar-static-top {
+      margin: 0;
+      background: #f8f8f8;
+    }
+    .top-nav-secondary {
+      border-bottom: 1px solid #EEE;
+      background: #282828;
+      .navbar-header{
+        .navbar-brand{
+          padding:15px;
+          img {
+            max-width: 165px;
+          }
+        }  
+      }
+      li {
+        > a {
+          color: #F2C994;
+          border-radius: 5px;
+          outline: none !important;
+          padding: 15px;
+          line-height: 20px;
+          height: 50px;
+          &:hover {
+            color: #FFF;
+            background: inherit;
+          }
+        }
+        &.active {
+          > a {
+            color: #FFF;
+            background: #f00;
+            &:hover {
+              color: #FFF;
+              background: #f00;
+            }
+          }
+        }
+      }
+    }
+    .sync-add {
+      border-radius: 5px;
+      padding: 4px 10px;
+      font-size: 14px;
+      font-weight: 400;
+      &:hover {
+        background:#f2f2f2;
+      }
+    }
+    .btn-primary {
+      color: #FFF !important;
+      border: none;
+      background: #f00;
+      outline: none !important;
+      &:hover {
+        background: rgb(226, 48, 48);
+      }
+    }
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+      &.btn-link {
+        color: #f00;
+        &:hover {
+          color: rgb(226, 48, 48);
+        }
+      }
+    }
+    footer.main-footer {
+        border-top: 1px solid #ddd;
+        .copyright p {
+          text-align: center;
+          padding-top: 40px;
+        }
+    }
+  }
+  a{
+    color: #f00;
+  }
+  a:hover {
+    color: rgb(226, 48, 48);
+  }
+  
+  #end-tour,
+  #continue-tour {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999999999999;
+  }
+  main{
+    .breadcrumb{
+      padding:8px 15px;
+      .breadcrumb-item.active{
+        color:#333;
+      }
+    }
+    .printfile-tabs{
+      .h-15 {
+    height: 15px;
+    }
+      .w-15 {
+      width: 15px;
+      } 
+      .show-chooseitems {
+        margin-top: 28px;
+        .h-150 {
+          height: 150px;
+        }
+      }
+      .nav-tabs{
+        position:relative;
+        > li{
+          a{
+            padding:10px 15px;
+            color:#f00;
+            font-weight:400;
+          }
+          .nav-link.active{
+             background-color:#fff;
+             border-color: #c7cdd1 #c7cdd1 transparent;
+          }
+        }
+        .order-badge{
+          position: absolute;
+          right: 0;
+          top: 8px;
+        }
+      }
+      .tab-content{
+        margin-top:20px;
+        button.btn.btn-primary {
+          padding: 9px 12px;
+          border-radius: 0px 4px 4px 0px !important;
+        }
+        input.upload-fileinput {
+          font-size: 0px;
+          background: none;
+          position: absolute;
+          top: 0;
+          border: none;
+          opacity: 0;
+          height: 100%;
+          width: 100%;
+          cursor: pointer;
+        }
+        .upload-productfile {
+          position: relative;
+          width: auto;
+        }
+        .upload-productfile label.btn {
+          width: 100%;
+          padding: 9px 15px;
+        }
+        .mxh-150 {
+          max-height: 150px;
+        }
+      }
+      .addorder-button {
+        border-bottom: 1px solid #ddd;
+        button.btn.btn-primary{
+          border-radius:5px !important;
+        }
+      }
+    }
+    .store-tablesection{
+      .table th{
+        background:none;
+        border-top:0px;
+      }
+      td a{
+        padding: 6px 6px;
+        font-size: 16px;
+        color: #000;
+      }
+    }
+    .orders-stats{
+      padding: 50px 50px;
+      div.order-info {
+        position: absolute;
+        right:35px;
+        top: 10px;
+      }
+    }
+}

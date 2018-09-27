@@ -1,0 +1,121 @@
+body a{ color:#f00; text-decoration:none;}
+body a:hover{text-decoration:none;}
+.navbar-brand {     float: left;     padding: 15px;     font-size: 18px;     line-height: 20px;     height: 50px; }
+div.container {     max-width: 1060px; }
+.navbar-nav>li>a {     padding-top: 15px;     padding-bottom: 15px; }
+.navbar-nav>li .icon {     font-size: 21px; }
+body .spark-nav-profile-photo {     width: 24px;     height: 24px; 	border: 2px solid #d3e0e9;     border-radius: 50%;     padding: 2px; }
+.header-top ul.dropdown-menu {     right: 0;     left: auto; }
+.header-top .navbar .dropdown-menu>li>a i {     color: #a4aaae; }
+.header-top .navbar .dropdown-header {     font-weight: 700;     margin-bottom: 5px; }
+header .navbar {     margin-bottom: 0px; }
+header .navbar-brand>img {     display: block;     max-width: 165px; }
+header .navbar-inverse {     background-color: #282828;     border-color: #eee;     border-bottom: 1px solid #eee;     padding: 10px 0px; 	border:none; 	border-radius:0px; }
+header .navbar-inverse .navbar-nav>.active>a, header .navbar-inverse .navbar-nav>.active>a:focus, header .navbar-inverse .navbar-nav>.active>a:hover{     color: #fff;     background-color: #f00; }
+header .navbar-inverse .navbar-nav>li>a {     color: #f2c994;     border-radius: 5px;     outline: none;     height: 50px;     font-size: 15px; }
+header .navbar-inverse .navbar-nav>li.order-menu>a{ 	color:#f00; }
+header .navbar-default {     border: none; }
+footer{border-top:1px solid #eee; margin-top:40px; padding-top:40px;}
+/*------------------------------------------------store-products-------------------------------------------------------------*/
+.store-tablesection {     padding: 28px 0px; }
+.store-tablesection .table>thead>tr>th {     vertical-align: bottom;     border-bottom: 2px solid #ddd;     font-size: 14px; }
+.store-tablesection .table tr td {     font-size: 14px;     vertical-align: top; }
+.store-bredcumbs {     margin-top: 20px; }
+.store-setting a{     padding: 6px 12px; }
+.store-setting {     float: left;     width: 100%;     margin-bottom: 13px; }
+.add-product{background-color: #f5f5f5;     border: 1px solid #e3e3e3;   width:100%;  border-radius: 0;     box-shadow: inset 0 1px 1px rgba(0,0,0,.05); 	padding:30px 0px; 	text-align:center; 	}
+.add-product button.btn-warning {     padding: 6px 50px; }
+.store-tabs {     margin-top: 20px; }
+.store-tabs .fs-i {     font-style: italic; 	text-align:center; }
+.store-tabs td.product-tableimage{width:86px;}
+.store-tabs .variant-column{width: 255px;}
+.store-delete{width:70px;}
+.store-last{width:125px;}
+.store-tabs .fw-b {     font-weight: 700; }
+.mtb-5 {     margin-top: 5px; } 
+.h-15 {     height: 15px; }
+.w-15 {     width: 15px; }
+.bd {     border: 1px solid #eee; }
+.d-inline {     display: inline-block; }
+.alert {     margin-top: 20px; }
+/*------------------------------------------------store-setting-------------------------------------------------------------*/
+.store-settingform{margin-top:20px;}
+.store-settingform .form-control {     width: 100%;     height: 34px;     padding: 6px 12px;     background-color: #fff;     background-image: none;     border: 1px solid #ccc;     border-radius: 0;     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+.mt-0{margin-top:0px;}
+.mt-20{margin-top:28px;}
+.store-settingform .radio label{padding-left:28px;}
+.store-settingform [type="radio"]:not(:checked) + label:before, .store-settingform [type="radio"]:checked + label:before {     content: '';     position: absolute;     left: 0px;     top: 0px;     width: 20px;     height: 20px;    background: url(../images/grey.png) no-repeat;     border-radius: 4px; 	 background-position: -88px 0 !important; }
+.store-settingform [type="radio"]:not(:checked), [type="radio"]:checked {     position: absolute;     left: -9999px; }
+ .store-settingform [type="radio"]:checked + label::after {         background-position: -110px 0 !important; 		content: '';     position: absolute;     left: 0px;     top: 0px;     width: 20px;     height: 20px;    background: url(../images/grey.png) no-repeat;     border-radius: 4px; }
+ .store-settingform [type="checkbox"]:not(:checked) + label:before, .store-settingform [type="checkbox"]:checked + label:before {     content: '';     position: absolute;     left: 0px;     top: 0px;     width: 20px;     height: 20px;    background: url(../images/grey.png) no-repeat;     border-radius: 4px; 	background-position: 0 0 !important;}
+.store-settingform [type="checkbox"]:not(:checked), [type="checkbox"]:checked {     position: absolute;     left: -9999px; }
+.store-settingform [type="checkbox"]:checked + label::after {             background-position: 0px 0 !important; 		content: '';     position: absolute;     left: 0px;     top: 0px;     width: 20px;     height: 20px;    background: url(../images/checked-grey.png) no-repeat;     border-radius: 4px; }
+.mxw-100 {     max-width: 100px; }
+.store-settingform .checkbox label {     position: relative; 	    padding-left: 28px; }
+.enable-formshow .enableapi-button{display:none;}
+.form-enabletoken{display:none;}
+.enable-formshow  .form-enabletoken{display:block;}
+/*------------------------------------------------add-productist-------------------------------------------------------------*/
+.addproduct-modalcontent h4.modal-title {     text-align: center; }
+.addproduct-modalcontent .modal-body {     position: relative;     padding: 0px; }
+.addproduct-modalcontent .close {     float: right;     font-size: 21px;     font-weight: 700;     line-height: 1;     color: #000;     text-shadow: 0 1px 0 #fff;     opacity: .2; }
+.addproduct-list .fz-18 {     font-size: 18px; 	font-weight:700; }
+.addproduct-list  .mxh-150 {     max-height: 150px; }
+body .thumbnail {     border-radius: 0;     transition: border .2s ease-in-out; text-align:center; }
+.addproduct-list .thumbnail .caption {     padding: 9px;     color: #333; font-size:14px; }
+.addproduct-list a.thumbnail.active, .addproduct-list a.thumbnail:focus, .addproduct-list a.thumbnail:hover {     border-color: #f00; text-decoration:none; }
+.addproduct-list {     padding: 0px 15px; }
+.inner-productlist .col-md-3 { padding: 0 8px; }
+ .inner-productlist .thumbnail .caption{color:#f00; padding:0px;}
+.addproduct-inner.modal-content, .addproduct-inner .modal-body, .inner-productlist {     float: left;     width: 100%; }
+.inner-productlist a.thumbnail.active, .inner-productlist a.thumbnail:focus,  .inner-productlist a.thumbnail:hover {border-color:#f00;}
+.fz-22 {     font-size: 22px; }
+.fz-16 {     font-size: 16px; }
+.fw-b {     font-weight: 700; }
+.mb-0{margin-bottom:0px;}
+.btn-block {     display: block;     width: 100%; }
+.text-bold{font-weight:700;}
+body .mb-30 {     margin-bottom: 30px; }
+.attribute-options-tree ul{ 	padding:0px; 	margin:0px; }
+.attribute-options-tree ul li {     list-style: none;     margin-right: 1px;     position: relative;     display: inline-block; }
+.attribute-options-tree #listResults .checkbox * {   cursor: pointer; }
+.attribute-options-tree #listResults .checkbox {   padding-left: 20px;   width: 20px;   height: 20px;   margin-top: 1px; } 
+.attribute-options-tree #listResults .checkbox label {   display: inline-block;   vertical-align: middle;   position: relative;   padding-left: 5px; }
+.attribute-options-tree #listResults .checkbox label::before {   content: "";       border: 1px solid #e5e5e5;   left: 0;  display: inline-block;   position: absolute;   width: 20px;   height: 20px;   left: 0;   margin-left: -20px;    border-radius: 0px;   background-color: #fff;   -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;   -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;   transition: border 0.15s ease-in-out, color 0.15s ease-in-out; } 
+.attribute-options-tree #listResults .checkbox label::after {     display: inline-block;    text-align: center;      border: 1px solid #fff;     outline: 1px solid #f00;     position: absolute;     width: 20px;     height: 20px;     left: 0;     top: 0px;     margin-left: -21px;     padding-left: 0;     padding-top: 1px;     font-size: 16px;     color: #fff;     line-height: normal; }
+.attribute-options-tree #listResults .checkbox input[type="checkbox"]{   opacity: 0;   z-index: 1; margin: 0px;  width: 20px;   height: 20px; left:0px;}
+.attribute-options-tree #listResults .checkbox input[type="checkbox"]:checked + label::after{   font-family: "FontAwesome";     text-shadow: 0 0 1px #666;  content: "\f00c"; }
+.attribute-options-tree #listResults .checkbox.checkbox-inline {   margin-top: 0; }
+#listResults .checkbox-red    input[type="checkbox"]:checked + label::after, #listResults .checkbox-yellow input[type="checkbox"]:checked + label::after, #listResults .checkbox-green  input[type="checkbox"]:checked + label::after, #listResults .checkbox-blue   input[type="checkbox"]:checked + label::after, #listResults .checkbox-black  input[type="checkbox"]:checked + label::after {color: #fff;}
+#listResults .checkbox-black input[type="checkbox"] + label::before {background-color: rgb(48, 47, 47);}
+#listResults  input[type="checkbox"].styled:checked + label:after {   font-family: 'FontAwesome';   content: "\f00c";  }
+#listResults .checkbox-cardinal input[type="checkbox"] + label::before { background-color: rgb(137, 14, 35);}
+#listResults .checkbox-chocolate input[type="checkbox"] + label::before{background-color:rgb(60, 37, 22);}
+#listResults .checkbox-green input[type="checkbox"] + label::before{background-color:rgb(39, 59, 50);}
+#listResults .checkbox-gold input[type="checkbox"] + label::before{background-color:rgb(254, 173, 40);}
+#listResults .checkbox-lightblue input[type="checkbox"] + label::before{background-color: rgb(164, 200, 225);}
+#listResults .checkbox-lightpink input[type="checkbox"] + label::before{background-color: rgb(253, 228, 233);}
+#listResults .checkbox-maroon input[type="checkbox"] + label::before{background-color:rgb(108, 31, 63);}
+#listResults .checkbox-military-green input[type="checkbox"] + label::before{background-color:rgb(111, 100, 55);}
+#listResults .checkbox-red input[type="checkbox"] + label::before{background-color:rgb(192, 28, 52);}
+#listResults .checkbox-royal input[type="checkbox"] + label::before{background-color:rgb(21, 65, 170);}
+#listResults .checkbox-sand input[type="checkbox"] + label::before{background-color:rgb(207, 198, 189);}
+#listResults .checkbox-white input[type="checkbox"] + label::before{background-color:rgb(255, 255, 255);}
+#listResults .checkbox-brown input[type="checkbox"] + label::before{background-color:rgb(72, 49, 49);}
+#listResults .checkbox-banana input[type="checkbox"] + label::before{background-color:rgb(245, 224, 159);}
+#listResults .checkbox-kelly-green input[type="checkbox"] + label::before{background-color:rgb(39, 136, 53);}
+#listResults .checkbox-midnight-navy input[type="checkbox"] + label::before{background-color:rgb(22, 38, 82);}
+#listResults .checkbox-purple-rush input[type="checkbox"] + label::before{background-color:rgb(93, 19, 153);}
+#listResults .checkbox-tahiti-blue input[type="checkbox"] + label::before{background-color:rgb(2, 172, 198);}
+#listResults .checkbox-turquoise input[type="checkbox"] + label::before{background-color:rgb(1, 164, 197);}
+#listResults .checkbox-warm-gray input[type="checkbox"] + label::before{background-color:rgb(145, 128, 118);}
+#listResults .checkbox-natural input[type="checkbox"] + label::before{background-color:rgb(220, 214, 193);}
+#listResults .checkbox-cool-blue input[type="checkbox"] + label::before{background-color:rgb(51, 89, 148);}
+#listResults .checkbox-cream input[type="checkbox"] + label::before{background-color:rgb(242, 227, 187);}
+#listResults .checkbox-heavy-metal input[type="checkbox"] + label::before{background-color:rgb(61, 60, 61);}
+#listResults .checkbox-light-grey input[type="checkbox"] + label::before{background-color:rgb(61, 60, 61);}
+#listResults .checkbox-light-olive input[type="checkbox"] + label::before{background-color:rgb(137, 141, 109);}
+#listResults .checkbox-heater-grey input[type="checkbox"] + label::before{background-color:rgb(176, 176, 178);}
+#listResults .checkbox-classic-orange input[type="checkbox"] + label::before{background-color:rgb(233, 123, 71);}
+
+

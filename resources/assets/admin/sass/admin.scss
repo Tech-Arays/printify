@@ -1,0 +1,67 @@
+// THIRD PARTY
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import "~admin-lte/dist/css/AdminLTE";
+@import "~admin-lte/dist/css/skins/_all-skins.css";
+@import '~admin-lte/bower_components/bootstrap/dist/css/bootstrap.css';
+@import "~admin-lte/bower_components/font-awesome/scss/font-awesome";
+@import "~admin-lte/bower_components/morris.js/morris.css";
+@import "~admin-lte/bower_components/jvectormap/jquery-jvectormap.css";
+//@import "~admin-lte/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css";
+@import "~ladda/dist/ladda-themeless.min.css";
+@import "~jasny-bootstrap/dist/css/jasny-bootstrap.css";
+
+.fileinput .thumbnail {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ta-c{
+    text-align:center;  
+}
+.color_box_ul{
+    li{
+        list-style:none;
+        padding:2px;
+        display:inline-flex;
+        float:left;
+        label{
+            width:25px;
+            height:25px;
+        }
+    }
+}
+.size-attributes{
+    li{
+        list-style:none;
+        padding:2px;
+        display:inline-flex;
+        float:left;
+        label{
+            background-color:#f1f1f1;
+            color:#000;
+        }
+    }
+
+}
+
+.check
+{
+    opacity:0.5;
+    color:#996;
+    background-color: darkgray;
+	
+}
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+.glyphicon-ok:before {   
+    position: relative;
+    left: -7px;
+    top: -4px;
+}
